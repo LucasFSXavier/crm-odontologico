@@ -1,0 +1,174 @@
+# Dependências
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Arquivos de lock (manter apenas um, comentar os outros se necessário)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Builds e arquivos gerados
+/.next/
+/out/
+/build
+/dist
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+error.log
+combined.log
+*.log.gz
+*.log.zip
+log/
+*.out
+
+# Arquivos de ambiente
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+.turbo/
+.node_repl_history
+*.pid
+*.seed
+*.pid.lock
+.npm/
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Arquivos do sistema operacional
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+*.exe
+*.dll
+*.sys
+*.bat
+*.cmd
+~$*
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+OneDriveTemp/
+*.onedrive
+*.onedrive.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Coverage e testes
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# Miscelânea
+*.pem
+*.key
+*.cert
+*.crt
+.vscode-test/
+.vercel
+
+# Node.js
+node_modules/
+.npm
+.node_repl_history
+*.tgz
+*.tar.gz
+.npmrc
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Debug e profiling
+*.node
+*.heapsnapshot
+*.cpuprofile
+*.heapprofile
+*.prof
+
+# Arquivos de configuração local
+.env.local
+.env.*.local
+local.json
+local.*.json
+
