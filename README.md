@@ -33,6 +33,7 @@ Sistema completo de gestão para clínicas dentárias, desenvolvido com Next.js,
 - Design moderno e responsivo
 - Suporte a tema claro/escuro
 - Componentes UI reutilizáveis (shadcn/ui)
+- Organização baseada em Atomic Design (atoms → molecules → organisms)
 - Animações suaves e transições
 - Interface intuitiva e acessível
 
@@ -71,7 +72,7 @@ Sistema completo de gestão para clínicas dentárias, desenvolvido com Next.js,
 
 Antes de começar, certifique-se de ter instalado:
 
-- **Node.js** 18.x ou superior
+- **Node.js** 20.9.0 ou superior (requerido pelo Next.js 16)
 - **pnpm** (gerenciador de pacotes) - ou npm/yarn
 - **Git**
 
@@ -160,14 +161,12 @@ dental-crm-application/
 │   ├── layout.tsx            # Layout principal
 │   ├── page.tsx              # Página inicial (Dashboard)
 │   └── globals.css           # Estilos globais
-├── components/               # Componentes React
-│   ├── ui/                   # Componentes UI (shadcn/ui)
-│   ├── auth-guard.tsx        # Proteção de rotas
-│   ├── odontogram.tsx        # Componente de odontograma
-│   ├── patient-modal.tsx     # Modal de paciente
-│   ├── revenue-chart.tsx     # Gráfico de receita
-│   ├── sidebar.tsx           # Barra lateral
-│   └── ...
+├── components/               # Componentes React (Atomic Design)
+│   ├── atoms/                # Primitivos reutilizáveis (ex: `ui/`, providers)
+│   │   ├── providers/        # Providers globais (ex: ThemeProvider)
+│   │   └── ui/               # Base shadcn/ui customizada
+│   ├── molecules/            # Combinações simples (menus, guards, etc.)
+│   └── organisms/            # Blocos completos (sidebar, gráficos, modais)
 ├── hooks/                    # React Hooks customizados
 ├── lib/                      # Utilitários e helpers
 │   ├── auth.ts               # Lógica de autenticação
@@ -272,4 +271,6 @@ Este projeto é privado e de uso interno.
 ---
 
 ⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!
+
+
 

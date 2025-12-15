@@ -5,12 +5,12 @@ import { Bell, Calendar, DollarSign, Search, UserCheck, AlertCircle } from "luci
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Sidebar } from "@/components/sidebar"
-import { TodayAppointments } from "@/components/today-appointments"
-import { RevenueChart } from "@/components/revenue-chart"
-import { ProceduresChart } from "@/components/procedures-chart"
-import { RecentPatients } from "@/components/recent-patients"
-import { UserMenu } from "@/components/user-menu"
+import { Sidebar } from "@/components/organisms/navigation/sidebar"
+import { TodayAppointments } from "@/components/organisms/appointments/today-appointments"
+import { RevenueChart } from "@/components/organisms/charts/revenue-chart"
+import { ProceduresChart } from "@/components/organisms/charts/procedures-chart"
+import { RecentPatients } from "@/components/organisms/patients/recent-patients"
+import { UserMenu } from "@/components/molecules/navigation/user-menu"
 
 export default function DashboardPage() {
   const [searchQuery, setSearchQuery] = useState("")

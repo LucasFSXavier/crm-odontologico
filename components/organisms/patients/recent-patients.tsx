@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
-import { PatientModal } from "@/components/patient-modal"
+import { PatientModal } from "@/components/organisms/patients/patient-modal"
 
 const patients = [
   {

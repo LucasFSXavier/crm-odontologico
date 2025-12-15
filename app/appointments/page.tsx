@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Bell, Search, Plus, ChevronLeft, ChevronRight, CalendarIcon, Clock, User } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Sidebar } from "@/components/sidebar"
+import { Sidebar } from "@/components/organisms/navigation/sidebar"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import {
@@ -18,7 +18,7 @@ import {
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { UserMenu } from "@/components/user-menu"
+import { UserMenu } from "@/components/molecules/navigation/user-menu"
 
 const appointments = [
   {

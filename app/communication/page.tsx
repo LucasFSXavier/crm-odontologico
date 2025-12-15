@@ -5,7 +5,7 @@ import { Bell, Search, Send, MessageSquare, Mail, Smartphone, Star, Plus } from 
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Sidebar } from "@/components/sidebar"
+import { Sidebar } from "@/components/organisms/navigation/sidebar"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -20,8 +20,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { EditTemplateModal } from "@/components/edit-template-modal"
-import { UserMenu } from "@/components/user-menu"
+import { EditTemplateModal } from "@/components/organisms/communication/edit-template-modal"
+import { UserMenu } from "@/components/molecules/navigation/user-menu"
 
 const templates = [
   {

@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { Sidebar } from "@/components/sidebar"
-import { UserMenu } from "@/components/user-menu"
+import { Sidebar } from "@/components/organisms/navigation/sidebar"
+import { UserMenu } from "@/components/molecules/navigation/user-menu"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -13,9 +13,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Switch } from "@/components/ui/switch"
 import { Save, Upload } from "lucide-react"
 import { maskPhone } from "@/lib/masks"
-import { AuthGuard } from "@/components/auth-guard"
-import { AddUserModal } from "@/components/add-user-modal"
-import { EditPermissionsModal } from "@/components/edit-permissions-modal"
+import { AuthGuard } from "@/components/molecules/auth/auth-guard"
+import { AddUserModal } from "@/components/organisms/management/add-user-modal"
+import { EditPermissionsModal } from "@/components/organisms/management/edit-permissions-modal"
 
 export default function SettingsPage() {
   const [activeTab, setActiveTab] = useState("clinic")

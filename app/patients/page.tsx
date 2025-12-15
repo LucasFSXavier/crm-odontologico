@@ -5,14 +5,14 @@ import { useRouter } from "next/navigation"
 import { Bell, Search, Plus, Filter, Download, MoreVertical } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Sidebar } from "@/components/sidebar"
+import { Sidebar } from "@/components/organisms/navigation/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { PatientModal } from "@/components/patient-modal"
-import { NewPatientModal } from "@/components/new-patient-modal"
+import { PatientModal } from "@/components/organisms/patients/patient-modal"
+import { NewPatientModal } from "@/components/organisms/patients/new-patient-modal"
 import {
   Dialog,
   DialogContent,
@@ -23,7 +23,7 @@ import {
 } from "@/components/ui/dialog"
 import { Label } from "@/components/ui/label"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { UserMenu } from "@/components/user-menu"
+import { UserMenu } from "@/components/molecules/navigation/user-menu"
 
 const patients = [
   {

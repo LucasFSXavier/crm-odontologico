@@ -4,12 +4,12 @@ import { Bell, Search, Phone, Mail, Calendar, FileText, Pill, AlertTriangle } fr
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Sidebar } from "@/components/sidebar"
+import { Sidebar } from "@/components/organisms/navigation/sidebar"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Odontogram } from "@/components/odontogram"
-import { TreatmentTimeline } from "@/components/treatment-timeline"
+import { Odontogram } from "@/components/organisms/patients/odontogram"
+import { TreatmentTimeline } from "@/components/organisms/patients/treatment-timeline"
 
 export default function PatientProfilePage() {
   return (

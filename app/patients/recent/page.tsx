@@ -7,8 +7,8 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Search, ArrowLeft } from "lucide-react"
-import { PatientModal } from "@/components/patient-modal"
-import { UserMenu } from "@/components/user-menu"
+import { PatientModal } from "@/components/organisms/patients/patient-modal"
+import { UserMenu } from "@/components/molecules/navigation/user-menu"
 import Link from "next/link"
 
 const allPatients = [
